@@ -2,14 +2,14 @@
   "name": "paypercall",
   "version": "0.1.4",
   "description": "Charge for HTTP APIs on a pay-per-call basis with Bitcoin and Lightning",
-  "main": "dist/paypercall.js",
-  "bin": "dist/cli.js",
+  "repository": "https://github.com/shesek/paypercall.git",
+  "main": "src/paypercall.js",
+  "bin": "src/cli.js",
   "scripts": {
     "start": "babel-node src/cli.js",
     "dist": "babel -d dist src",
     "prepublishOnly": "npm run dist"
   },
-  "repository": "https://github.com/shesek/paypercall.git",
   "keywords": [
     "bitcoin",
     "lightning",
@@ -31,7 +31,7 @@
     "http-proxy": "^1.16.2",
     "js-yaml": "^3.10.0",
     "meow": "^4.0.0",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
